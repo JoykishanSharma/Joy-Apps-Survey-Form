@@ -10,10 +10,225 @@
 
 <body>
 
+    <!-- Header -->
+    <header>
+        <h1 id="title">
+            Joy Apps Survey Form
+        </h1>
+        <p id="description">
+            Thank you for taking the time to help us improve our apps
+        </p>
 
+        <!-- Section -->
+        <div>
+            <!-- Survey Form -->
+            <form id="survey-form" action="post">
+                <!-- Name label and input element -->
+                <label id="name-label" for="name">
+                    Name
+                    <br><input id="name" type="text" placeholder="Enter your name here" required>
+                </label>
+
+                <!-- Email label and input element -->
+                <br>
+                <label id="email-label" for="email">
+                    Email
+                    <br><input id="email" type="email" placeholder="Enter your email address here" required>
+                </label>
+
+                <!-- Age label and input element -->
+                <br>
+                <label id="number-label" for="number">
+                    Age
+                    <br><input id="number" type="number" min="18" max="100" placeholder="Enter your age here">
+                </label>
+
+                <!-- label and Dropdown -->
+                <br>
+                <label for="dropdown">
+                    How do you come to know about our Apps?
+                    <br><select name="install_path" id="dropdown">
+                        <option value="default" selected disabled>Select your answer</option>
+                        <option value="play_store">Google Play Store</option>
+                        <option value="social_media">Social Media</option>
+                        <option value="advertisement">Advertisement</option>
+                        <option value="others">Others</option>
+                    </select>
+                </label>
+
+                <!-- Rating label for Puzzlogic App and Radio Buttons -->
+                <br>
+                <label>
+                    Have you tried out our <a
+                        href="https://play.google.com/store/apps/details?id=com.joyappsdevteam.brainpuzzlequiz&hl=en_IN"
+                        target="_blank">Puzzlogic App</a> ?
+                </label><br>
+
+                <label for="opt_1_app1">
+                    <input type="radio" id="opt_1_app1" name="app1_rating" value="yes_liked">
+                    Yes, I liked it.
+                </label><br>
+
+                <label for="opt_2_app1">
+                    <input type="radio" id="opt_2_app1" name="app1_rating" value="yes_somewhat_liked">
+                    Yes, Somewhat liked it.
+                </label><br>
+
+                <label for="opt_3_app1">
+                    <input type="radio" id="opt_3_app1" name="app1_rating" value="yes_not_liked">
+                    Yes, I didn't liked it.
+                </label><br>
+
+                <label for="opt_4_app1">
+                    <input type="radio" id="opt_4_app1" name="app1_rating" value="havent_tried_out">
+                    No, I haven't tried out this App.
+                </label>
+
+                <!-- Rating label for Sasta Bazaar App  and Radio Buttons -->
+                <br>
+                <label>
+                    Have you tried out our <a
+                        href="https://play.google.com/store/apps/details?id=com.joyappsdevteam.groceryshoppingapp&hl=en_IN"
+                        target="_blank">Sasta Bazaar App</a> ?
+                </label><br>
+
+                <label for="opt_1_app2">
+                    <input type="radio" id="opt_1_app2" name="app2_rating" value="yes_liked">
+                    Yes, I liked it.
+                </label><br>
+
+                <label for="opt_2_app2">
+                    <input type="radio" id="opt_2_app2" name="app2_rating" value="yes_somewhat_liked">
+                    Yes, Somewhat liked it.
+                </label><br>
+
+                <label for="opt_3_app2">
+                    <input type="radio" id="opt_3_app2" name="app2_rating" value="yes_not_liked">
+                    Yes, I didn't liked it.</label><br>
+
+                <label for="opt_4_app2">
+                    <input type="radio" id="opt_4_app2" name="app2_rating" value="havent_tried_out">
+                    No, I haven't tried out this App.
+                </label>
+
+                <!-- Rating label for Covid-19 Mobile Updater App  and Radio Buttons -->
+                <br>
+                <label>
+                    Have you tried out our <a
+                        href="https://github.com/JoykishanSharma/Covid-19-Mobile-Updater-App#covid-19-mobile-updater-app"
+                        target="_blank">Covid-19 Mobile Updater App</a> ?
+                </label><br>
+
+                <label for="opt_1_app3">
+                    <input type="radio" id="opt_1_app3" name="app3_rating" value="yes_liked">
+                    Yes, I liked it.
+                </label><br>
+
+                <label for="opt_2_app3">
+                    <input type="radio" id="opt_2_app3" name="app3_rating" value="yes_somewhat_liked">
+                    Yes, Somewhat liked it.
+                </label><br>
+
+                <label for="opt_3_app3">
+                    <input type="radio" id="opt_3_app3" name="app3_rating" value="yes_not_liked">
+                    Yes, I didn't liked it.
+                </label><br>
+
+                <label for="opt_4_app3">
+                    <input type="radio" id="opt_4_app3" name="app3_rating" value="havent_tried_out">
+                    No, I haven't tried out this App.
+                </label>
+
+                <!-- Rating label for UGC NTA-NET/SET/JRF Mock Test App  and Radio Buttons -->
+                <br>
+                <label>
+                    Have you tried out our <a
+                        href="https://play.google.com/store/apps/details?id=com.joyappsdevteam.ugc_nta_netmocktestapp&hl=en_IN"
+                        target="_blank">UGC NTA-NET/SET/JRF Mock Test App</a> ?
+                </label><br>
+
+                <label for="opt_1_app4">
+                    <input type="radio" id="opt_1_app4" name="app4_rating" value="yes_liked">
+                    Yes, I liked it.
+                </label><br>
+
+                <label for="opt_2_app4">
+                    <input type="radio" id="opt_2_app4" name="app4_rating" value="yes_somewhat_liked">
+                    Yes, Somewhat liked it.
+                </label><br>
+
+                <label for="opt_3_app4">
+                    <input type="radio" id="opt_3_app4" name="app4_rating" value="yes_not_liked">
+                    Yes, I didn't liked it.
+                </label><br>
+
+                <label for="opt_4_app4">
+                    <input type="radio" id="opt_4_app4" name="app4_rating" value="havent_tried_out">
+                    No, I haven't tried out this App.
+                </label>
+
+                <!-- Rating label for Number To Word Converter App  and Radio Buttons -->
+                <br>
+                <label>
+                    Have you tried out our <a
+                        href="https://play.google.com/store/apps/details?id=com.joyappsdevteam.numbertowords&hl=en_IN"
+                        target="_blank">Number To Word Converter App</a> ?
+                </label><br>
+
+                <label for="opt_1_app5">
+                    <input type="radio" id="opt_1_app5" name="app5_rating" value="yes_liked">
+                    Yes, I liked it.
+                </label><br>
+
+                <label for="opt_2_app5">
+                    <input type="radio" id="opt_2_app5" name="app5_rating" value="yes_somewhat_liked">
+                    Yes, Somewhat liked it.
+                </label><br>
+
+                <label for="opt_3_app5">
+                    <input type="radio" id="opt_3_app5" name="app5_rating" value="yes_not_liked">
+                    Yes, I didn't liked it.
+                </label><br>
+
+                <label for="opt_4_app5">
+                    <input type="radio" id="opt_4_app5" name="app5_rating" value="havent_tried_out">
+                    No, I haven't tried out this App.
+                </label>
+
+                <!-- Label and Improvement Checkboxes -->
+                <br>
+                <label>
+                    What would you like to see improved? <span>(Check all that apply)</span> ?
+                </label><br>
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" name="improvement" value="front_end_projects">
+                    Front End Projects
+                </label><br>
+
+                <label for="_cb2">
+                    <input type="checkbox" id="_cb2" name="improvement" value="back_end_projects">
+                    Back End Projects
+                </label>
+
+                <!-- Label and Suggestion TextArea -->
+                <br>
+                <label for="textarea">
+                    Any comments or suggestions ?
+                    <br><textarea id="textarea" placeholder="Enter your comment here..."> </textarea>
+                </label>
+
+                <!-- Submit Button -->
+                <br>
+                <button type="submit" id="submit">Submit</button>
+
+            </form>
+        </div>
+    </header>
 
     <!-- Scripts -->
     <script src="./js/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
