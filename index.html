@@ -10,7 +10,53 @@
 
 <body>
 
+    <!-- Header -->
+    <header>
+        <h1 id="title">
+            Joy Apps Survey Form
+        </h1>
+        <p id="description">
+            Thank you for taking the time to help us improve our apps
+        </p>
 
+        <!-- Main -->
+        <main>
+            <!-- Survey Form -->
+            <form id="survey-form" action="post">
+                <!-- Name label and input element -->
+                <label id="name-label" for="name">Name</label><br>
+                <input id="name" type="name" placeholder="Enter your name here">
+
+                <!-- Email label and input element -->
+                <br>
+                <label id="email-label" for="email">Email</label><br>
+                <input id="email" type="email" placeholder="Enter your email address here">
+
+                <!-- Age label and input element -->
+                <br>
+                <label id="number-label" for="number">Age</label><br>
+                <input id="number" type="number" min="18" max="100" placeholder="Enter your age here">
+
+                <!-- label and Dropdown -->
+                <br>
+                <label for="dropdown">How do you come to know about our Apps?</label><br>
+                <select name="install_path" id="dropdown">
+                    <option value="default" selected disabled>Select your answer</option>
+                    <option value="play_store">Google Play Store</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="others">Others</option>
+                </select>
+
+                <!-- Rating label and Radio Buttons -->
+                <br>
+                <label for="ratings">Rate our Apps </label><br>
+                
+
+                
+            </form>
+        </main>
+    </header>
 
     <!-- Scripts -->
     <script src="./js/script.js"></script>
