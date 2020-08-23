@@ -27,6 +27,7 @@ header h1{
     filter: drop-shadow(
     2px 3px 2px black);
     color: #37AF65;
+    margin-top: 30px;
 }
 
 header p{
@@ -121,9 +122,34 @@ a:hover{
     text-align: center;
 }
 
+footer{
+    width: 100%;
+    background: rgb(4,63,81,0.7);
+}
+
+footer p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #F1F1F1;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#heart{
+    width: 20px;
+}
+
+footer p a{
+    color: #37AF65;
+}
+
 /* On screens that are 992px wide or less */
 @media screen and (max-width: 992px) {
-    /* Looks Good here anyway */
+    main{
+        width: 80%;
+    }
 }
 
 /* On screens that are 600px wide or less */
