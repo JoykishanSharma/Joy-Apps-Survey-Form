@@ -13,7 +13,7 @@ body{
 }
 
 main{
-    width: 60%;
+    width: 64%;
     margin: 5vh auto;
 }
 
@@ -72,6 +72,7 @@ input:focus, select:focus, textarea:focus{
 .options-div{
     margin-left: 30px;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .option-label{
@@ -125,6 +126,7 @@ a:hover{
 footer{
     width: 100%;
     background: rgb(4,63,81,0.7);
+    padding: 10px;
 }
 
 footer p{
@@ -133,7 +135,6 @@ footer p{
     font-weight: 600;
     color: #F1F1F1;
     height: 100%;
-    padding: 10px;
     text-align: center;
 }
 
